@@ -10,6 +10,14 @@ Practicando con Nest.js para construir una simple REST ful API
 ```bash
 $ yarn install
 ```
+## Populate Data from Seed:
+```bash
+Get -> http://localhost:3000/seed
+```
+### Get with curl:
+```bash
+curl http://localhost:3000/seed
+```
 
 ## Running the app
 
@@ -22,17 +30,4 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
 ```
